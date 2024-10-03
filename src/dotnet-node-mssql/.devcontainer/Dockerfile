@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/dotnet:1-${templateOption:imageVariant}
+FROM mcr.microsoft.com/devcontainers/dotnet
 
 # Install SQL Tools: SQLPackage and sqlcmd
 COPY mssql/installSQLtools.sh installSQLtools.sh
